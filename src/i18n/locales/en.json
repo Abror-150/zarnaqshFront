@@ -1,0 +1,136 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About",
+    "services": "Services",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Handmade Jewelry",
+    "subtitle": "Unique and beautiful jewelry in national style. Each piece is a work of art.",
+    "cta": "View Products"
+  },
+  "featured": {
+    "title": "Featured Products",
+    "viewAll": "View All Products"
+  },
+  "about": {
+    "title": "About Us",
+    "experience": "Experience",
+    "years": "years",
+    "clients": "Clients",
+    "happy": "100+ happy clients",
+    "bio": "I am G'ozibekova Mamlakat Xudayberdiyevna, an individual entrepreneur engaged in handmade jewelry production in national style for 4 years.",
+    "description": "I create from simple metals tillaqosh, zebigardon, earrings, bracelets, rings, tika, crowns, diadems, juliettas, abadok, handmade bags and other national and modern jewelry. Each product is made with attention and has its own unique style.",
+    "craftsmanship": "High-quality workmanship and carefully selected materials make each piece unique and long-lasting. I always create new styles and manufacture products that meet my clients' wishes.",
+    "exhibitions": "Exhibitions and Achievements",
+    "exhibitionsList": [
+      "2-day exhibition in Guliston",
+      "3-day participation in III Handicrafters Festival in Qo'qon",
+      "3-day participation in InnoWeek in Tashkent",
+      "Participation in several local exhibitions"
+    ]
+  },
+  "services": {
+    "title": "Services",
+    "pricing": {
+      "title": "Pricing",
+      "description": "Prices depend on product type and materials. Each item is handmade and time depends on complexity."
+    },
+    "delivery": {
+      "title": "Delivery",
+      "description": "Delivery available to all regions. Delivery costs are paid by the customer."
+    },
+    "custom": {
+      "title": "Custom Orders",
+      "description": "You can order in your desired style. Fast and quality production guaranteed."
+    },
+    "guarantee": {
+      "title": "Guarantee",
+      "description": "Full workmanship guarantee on all products."
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "questions": [
+      {
+        "q": "How long does it take to make?",
+        "a": "Depending on the complexity of the product, it's made as fast as possible. Simple items take 1-2 days, more complex ones may take 3-5 days."
+      },
+      {
+        "q": "Is it really handmade?",
+        "a": "Yes, all products are fully handmade. Each detail is processed with attention."
+      },
+      {
+        "q": "Do the colors fade?",
+        "a": "It depends on the materials. Some last long, others may change over time. We always use quality materials."
+      },
+      {
+        "q": "How is the price determined?",
+        "a": "Price is based on materials and processing style. Individual price is calculated for each product."
+      },
+      {
+        "q": "Do you offer delivery?",
+        "a": "Yes, delivery is available to all regions. Delivery costs are paid by the customer."
+      },
+      {
+        "q": "How long have you been doing this?",
+        "a": "I have been making jewelry for 4 years and have over 100 satisfied clients."
+      },
+      {
+        "q": "Do you accept apprentices?",
+        "a": "Yes, I accept apprentices both online and offline. Always ready to teach the art."
+      },
+      {
+        "q": "Do you guarantee quality?",
+        "a": "Yes, we provide full workmanship guarantee on all products. If any issues arise, we will resolve them."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "info": "Information",
+    "address": "Sirdaryo region, Sardoba district, Karvon road street 15/2",
+    "workHours": "Work hours: 9:00 - 18:00",
+    "form": {
+      "title": "Send Message",
+      "name": "Your Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send",
+      "success": "Your message has been sent!",
+      "error": "An error occurred. Please try again."
+    }
+  },
+  "product": {
+    "details": "Product Details",
+    "materials": "Materials",
+    "price": "Price",
+    "quantity": "Quantity",
+    "addToCart": "Add to Cart",
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "som": "som"
+  },
+  "cart": {
+    "title": "Cart",
+    "empty": "Cart is empty",
+    "total": "Total",
+    "remove": "Remove",
+    "continueShopping": "Continue Shopping",
+    "checkout": "Checkout",
+    "itemAdded": "Item added to cart"
+  },
+  "footer": {
+    "about": "Handmade jewelry in national style. 4 years of experience and 100+ happy clients.",
+    "quickLinks": "Quick Links",
+    "followUs": "Follow Us",
+    "copyright": "All rights reserved."
+  },
+  "search": {
+    "placeholder": "Search products...",
+    "noResults": "No results found"
+  }
+}

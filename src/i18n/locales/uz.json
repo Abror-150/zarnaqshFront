@@ -1,0 +1,136 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "products": "Mahsulotlar",
+    "about": "Biz haqimizda",
+    "services": "Xizmatlar",
+    "faq": "Savol-Javoblar",
+    "contact": "Bog'lanish"
+  },
+  "hero": {
+    "title": "Qo'l mehnati zargarlik buyumlari",
+    "subtitle": "Milliy uslubdagi noyob va chiroyli zargarlik buyumlari. Har bir mahsulot – san'at asari.",
+    "cta": "Mahsulotlar"
+  },
+  "featured": {
+    "title": "Ajoyib mahsulotlar",
+    "viewAll": "Barcha mahsulotlar"
+  },
+  "about": {
+    "title": "Biz haqimizda",
+    "experience": "Tajriba",
+    "years": "yil",
+    "clients": "Mijozlar",
+    "happy": "100+ baxtli mijozlar",
+    "bio": "Men G'ozibekova Mamlakat Xudayberdiyevna, yakka tartibdagi tadbirkor sifatida 4 yildan beri milliy uslubdagi qo'l mehnati zargarlik buyumlarini yasashda faoliyat yuritaman.",
+    "description": "Oddiy metallardan tillaqosh, zebigardon, sirg'a, bilaguzuk, uzuk, tika, toj, diodema, julietta, abadok, qo'lda tikish xalta va boshqa milliy va zamonaviy zargarlik buyumlarini yarataman. Har bir mahsulot diqqat bilan yasaladi va o'ziga xos uslubga ega.",
+    "craftsmanship": "Yuqori sifatli ishlov berish va diqqat bilan tanlangan materiallar har bir buyumni noyob va uzoq muddatli qiladi. Men har doim yangi uslublar yarataman va mijozlarimning xohishlariga mos keladigan mahsulotlar tayyorlayman.",
+    "exhibitions": "Ko'rgazmalar va yutuqlar",
+    "exhibitionsList": [
+      "Gulistonda 2 kunlik ko'rgazma",
+      "Qo'qonda III Hunarmandlar festivalida 3 kunlik ishtirok",
+      "Toshkentda InnoWeek tadbiriga 3 kunlik ishtirok",
+      "Bir nechta mahalliy ko'rgazmalarda ishtirok"
+    ]
+  },
+  "services": {
+    "title": "Xizmatlar",
+    "pricing": {
+      "title": "Narxlar",
+      "description": "Narxlar mahsulot turi va materialga bog'liq. Har bir buyum qo'lda tayyorlanadi va murakkabligiga qarab vaqt sarflanadi."
+    },
+    "delivery": {
+      "title": "Yetkazib berish",
+      "description": "Barcha hududlarga yetkazib berish xizmati mavjud. Yetkazib berish xarajatlari mijoz zimmasida."
+    },
+    "custom": {
+      "title": "Buyurtma asosida",
+      "description": "Siz o'zingiz xohlagan uslubda buyurtma bera olasiz. Tez va sifatli tayyorlash kafolatlanadi."
+    },
+    "guarantee": {
+      "title": "Kafolat",
+      "description": "Barcha mahsulotlar uchun to'liq ish sifati kafolati beriladi."
+    }
+  },
+  "faq": {
+    "title": "Tez-tez beriladigan savollar",
+    "questions": [
+      {
+        "q": "Buyum qancha vaqtda tayyorlanadi?",
+        "a": "Mahsulot murakkabligiga qarab imkon qadar tez tayyorlanadi. Oddiy buyumlar 1-2 kun, murakkablari 3-5 kungacha vaqt olishi mumkin."
+      },
+      {
+        "q": "Bu haqiqatan qo'lda yasalganmi?",
+        "a": "Ha, barcha mahsulotlar to'liq qo'l mehnati bilan tayyorlanadi. Har bir detal diqqat bilan ishlanadi."
+      },
+      {
+        "q": "Ranglar o'chib ketadimi?",
+        "a": "Bu materiallarga bog'liq. Ba'zilari uzoq davom etadi, boshqalari esa vaqt o'tishi bilan o'zgarishi mumkin. Biz har doim sifatli materiallardan foydalanamiz."
+      },
+      {
+        "q": "Narx qanday belgilanadi?",
+        "a": "Narx materiallar va ishlov berish uslubiga asoslanadi. Har bir mahsulot uchun individual narx hisoblanadi."
+      },
+      {
+        "q": "Yetkazib berish xizmati bormi?",
+        "a": "Ha, barcha hududlarga yetkazib berish mavjud. Yetkazib berish xarajatlarini mijoz to'laydi."
+      },
+      {
+        "q": "Qancha vaqtdan beri ish qilyapsiz?",
+        "a": "Men 4 yildan beri zargarlik buyumlarini yasashda faoliyat yuritaman va 100 dan ortiq baxtli mijozlarimiz bor."
+      },
+      {
+        "q": "Shogird olasizmi?",
+        "a": "Ha, men onlayn va offlayn shaklda shogirdlar qabul qilaman. San'atni o'rgatishga doim tayyorman."
+      },
+      {
+        "q": "Sifat kafolatini berasizmi?",
+        "a": "Ha, barcha mahsulotlar uchun to'liq ish sifati kafolati beramiz. Agar biror muammo bo'lsa, biz uni hal qilamiz."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Bog'lanish",
+    "info": "Ma'lumotlar",
+    "address": "Sirdaryo viloyati, Sardoba tumani, Karvon yo'li ko'chasi 15/2",
+    "workHours": "Ish vaqti: 9:00 - 18:00",
+    "form": {
+      "title": "Xabar yuboring",
+      "name": "Ismingiz",
+      "email": "Elektron pochta",
+      "message": "Xabar",
+      "send": "Yuborish",
+      "success": "Xabaringiz yuborildi!",
+      "error": "Xatolik yuz berdi. Qayta urinib ko'ring."
+    }
+  },
+  "product": {
+    "details": "Mahsulot tafsilotlari",
+    "materials": "Materiallar",
+    "price": "Narx",
+    "quantity": "Miqdor",
+    "addToCart": "Savatga qo'shish",
+    "inStock": "Mavjud",
+    "outOfStock": "Tugagan",
+    "som": "so'm"
+  },
+  "cart": {
+    "title": "Savat",
+    "empty": "Savat bo'sh",
+    "total": "Jami",
+    "remove": "O'chirish",
+    "continueShopping": "Xaridni davom ettirish",
+    "checkout": "To'lovga o'tish",
+    "itemAdded": "Mahsulot savatga qo'shildi"
+  },
+  "footer": {
+    "about": "Milliy uslubdagi qo'l mehnati zargarlik buyumlari. 4 yillik tajriba va 100+ baxtli mijozlar.",
+    "quickLinks": "Tezkor havolalar",
+    "followUs": "Ijtimoiy tarmoqlar",
+    "copyright": "Barcha huquqlar himoyalangan."
+  },
+  "search": {
+    "placeholder": "Mahsulot qidirish...",
+    "noResults": "Hech narsa topilmadi"
+  }
+}
