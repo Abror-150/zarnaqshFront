@@ -14,7 +14,7 @@ const ProductDetail = () => {
   const { t, i18n } = useTranslation();
   const { addToCart } = useCart();
   const [quantity, setQuantity] = useState(1);
-  const lang = i18n.language as 'uz' | 'ru' | 'en';
+  const lang = (i18n.language as 'uz' | 'ru' | 'en') || 'uz';
 
   const product = products.find((p) => p.id === id);
 
@@ -56,7 +56,7 @@ const ProductDetail = () => {
             <div className="aspect-square rounded-lg overflow-hidden bg-card">
               <img
                 src={product.image}
-                alt={product.name[lang]}
+                alt={product.name[lang] || product.name['uz'] || ''}
                 className="w-full h-full object-cover"
               />
             </div>
@@ -65,7 +65,7 @@ const ProductDetail = () => {
           {/* Details */}
           <div className="space-y-6 animate-fade-in">
             <div>
-              <h1 className="text-4xl font-bold mb-2">{product.name[lang]}</h1>
+              <h1 className="text-4xl font-bold mb-2">{product.name[lang] || product.name['uz'] || ''}</h1>
               {product.featured && (
                 <Badge className="bg-primary">Featured</Badge>
               )}
@@ -77,12 +77,12 @@ const ProductDetail = () => {
 
             <div>
               <h3 className="font-semibold mb-2">{t('product.details')}</h3>
-              <p className="text-muted-foreground">{product.description[lang]}</p>
+              <p className="text-muted-foreground">{product.description[lang] || product.description['uz'] || ''}</p>
             </div>
 
             <div>
               <h3 className="font-semibold mb-2">{t('product.materials')}</h3>
-              <p className="text-muted-foreground">{product.materials[lang]}</p>
+              <p className="text-muted-foreground">{product.materials[lang] || product.materials['uz'] || ''}</p>
             </div>
 
             <div className="space-y-4">

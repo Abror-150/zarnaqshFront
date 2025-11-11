@@ -8,13 +8,16 @@ import { Search } from 'lucide-react';
 const Products = () => {
   const { t, i18n } = useTranslation();
   const [searchQuery, setSearchQuery] = useState('');
-  const lang = i18n.language as 'uz' | 'ru' | 'en';
+  const lang = (i18n.language as 'uz' | 'ru' | 'en') || 'uz';
 
   const filteredProducts = products.filter((product) => {
     const searchLower = searchQuery.toLowerCase();
+    const productName = product.name[lang] || product.name['uz'] || '';
+    const productDesc = product.description[lang] || product.description['uz'] || '';
+    
     return (
-      product.name[lang].toLowerCase().includes(searchLower) ||
-      product.description[lang].toLowerCase().includes(searchLower)
+      productName.toLowerCase().includes(searchLower) ||
+      productDesc.toLowerCase().includes(searchLower)
     );
   });
 

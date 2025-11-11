@@ -8,7 +8,7 @@ import { Minus, Plus, Trash2, ShoppingBag } from 'lucide-react';
 const Cart = () => {
   const { t, i18n } = useTranslation();
   const { cart, removeFromCart, updateQuantity, getTotalPrice } = useCart();
-  const lang = i18n.language as 'uz' | 'ru' | 'en';
+  const lang = (i18n.language as 'uz' | 'ru' | 'en') || 'uz';
 
   if (cart.length === 0) {
     return (
@@ -41,16 +41,16 @@ const Cart = () => {
                   <div className="flex gap-4">
                     <img
                       src={item.image}
-                      alt={item.name[lang]}
+                      alt={item.name[lang] || item.name['uz'] || ''}
                       className="w-24 h-24 object-cover rounded-lg"
                     />
                     
                     <div className="flex-1">
                       <h3 className="font-semibold text-lg mb-2">
-                        {item.name[lang]}
+                        {item.name[lang] || item.name['uz'] || ''}
                       </h3>
                       <p className="text-sm text-muted-foreground mb-4">
-                        {item.materials[lang]}
+                        {item.materials[lang] || item.materials['uz'] || ''}
                       </p>
                       
                       <div className="flex items-center justify-between">

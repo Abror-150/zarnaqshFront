@@ -10,7 +10,7 @@ interface ProductCardProps {
 
 export const ProductCard = ({ product }: ProductCardProps) => {
   const { i18n } = useTranslation();
-  const lang = i18n.language as 'uz' | 'ru' | 'en';
+  const lang = (i18n.language as 'uz' | 'ru' | 'en') || 'uz';
 
   return (
     <Link to={`/products/${product.id}`}>
@@ -18,7 +18,7 @@ export const ProductCard = ({ product }: ProductCardProps) => {
         <div className="relative overflow-hidden aspect-square">
           <img
             src={product.image}
-            alt={product.name[lang]}
+            alt={product.name[lang] || product.name['uz'] || ''}
             className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-500"
           />
           {product.featured && (
@@ -29,10 +29,10 @@ export const ProductCard = ({ product }: ProductCardProps) => {
         </div>
         <CardContent className="p-4">
           <h3 className="font-semibold text-lg mb-2 group-hover:text-primary transition-colors">
-            {product.name[lang]}
+            {product.name[lang] || product.name['uz'] || ''}
           </h3>
           <p className="text-sm text-muted-foreground line-clamp-2">
-            {product.description[lang]}
+            {product.description[lang] || product.description['uz'] || ''}
           </p>
         </CardContent>
         <CardFooter className="p-4 pt-0 flex justify-between items-center">
