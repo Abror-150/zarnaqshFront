@@ -148,7 +148,9 @@ const Contact = () => {
                     />
                   </div>
 
-                  <Button type="submit" size="lg" className="w-full">Button</Button>
+                  <Button type="submit" size="lg" className="w-full">
+                    Button
+                  </Button>
                 </form>
               </CardContent>
             </Card>
