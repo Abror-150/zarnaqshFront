@@ -43,6 +43,16 @@ const ProductDetail = () => {
     },
     enabled: !!id,
   });
+
+  const { data: materials } = useQuery({
+    queryKey: ["materials"],
+    queryFn: async () => {
+      const res = await axios.get(`${API}/material`);
+      console.log(res.data);
+      return res.data;
+    },
+  });
+
   const mutation = useMutation<Product, any, number>({
     mutationFn: async (qty: number) => {
       const res = await axios.post(`${API}/order`, {
@@ -137,7 +147,7 @@ const ProductDetail = () => {
               onClick={() => {
                 addToCart(product!, quantity);
                 toast.success(t("cart.itemAdded"));
-                navigate("/cart"); // optional, darhol savatchaga o‘tganda
+                navigate("/products"); // optional, darhol savatchaga o‘tganda
               }}
               disabled={quantity > product.amount}
               className="w-full mt-4"
